@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 import WrapperNav from "@/components/Home/Navbar/WrapperNav";
+import Footer from "@/components/Home/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const font = Rubik({
   weight :["300","400","500","700","800","900"],
@@ -25,6 +27,8 @@ export default function RootLayout({
         className={`${font.className} antialiased`}
       >  <WrapperNav />
         {children}
+        <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
