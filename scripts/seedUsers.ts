@@ -12,6 +12,8 @@ async function seedUsers() {
 
   const saltRounds = 10;
   // hello git 
+  // hello jkjjjjjjjjjjjgit 
+ 
 
   const {
     ADMIN_USERNAME,
