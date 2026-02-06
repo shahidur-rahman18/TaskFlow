@@ -11,6 +11,7 @@ async function seedUsers() {
   console.log("Using DB:", db.databaseName);
 
   const saltRounds = 10;
+  // hello git 
 
   const {
     ADMIN_USERNAME,
