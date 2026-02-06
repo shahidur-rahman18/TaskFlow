@@ -44,9 +44,12 @@ const Nav = ({openNav}:Props) => {
         {/* Button  */}
         <div className="flex items-center space-x-4 ">
           {/* Get Started Button  */}
-          <button className="px-6 py-3 rounded-full font-semibold text-sm cursor-pointer  hover:bg-red-800 transition-all duration-200 bg-red-600 text-white ">
-            {" "}
-            Get Started For Free
+          <button className="hidden md:block px-6 py-3 rounded-full font-semibold text-sm cursor-pointer  hover:bg-red-800 transition-all duration-200 bg-red-600 text-white ">
+            Login
+          </button>
+          <button className="hidden md:block px-6 py-3 rounded-full font-semibold text-sm cursor-pointer  hover:bg-red-800 transition-all duration-200 bg-red-600 text-white ">
+          
+            SignUp
           </button>
           {/* Burger Menu  */}
           <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden " />

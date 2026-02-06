@@ -29,6 +29,20 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
             </Link>
           );
         })}
+        {/* Button  */}
+        <div className="flex flex-col  space-y-4 ">
+          {/* Get Started Button  */}
+          <button className="text-white w-fit text-[15px] ml-12 border-b-[1.5px] p-2 sm:text-[20px] bg-black rounded-xl">
+            Login
+          </button>
+          <button className="text-white w-fit text-[15px] ml-12 border-b-[1.5px] p-2 sm:text-[20px] bg-black rounded-xl">
+          
+            SignUp
+          </button>
+          </div>
+
+
+        
         {/* cross icon  */}
         <CgClose
           onClick={closeNav}
