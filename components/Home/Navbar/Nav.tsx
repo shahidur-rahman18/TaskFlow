@@ -84,9 +84,12 @@ const Nav = ({openNav}:Props) => {
           >
             Login
           </Link>
-          <button className="hidden md:block px-6 py-3 rounded-full font-semibold text-sm cursor-pointer hover:bg-red-800 transition-all duration-200 bg-red-600 text-white">
+          <Link
+            href="/signup"
+            className="hidden md:block px-6 py-3 rounded-full font-semibold text-sm text-center transition-all duration-200 bg-red-600 text-white hover:bg-red-800"
+          >
             SignUp
-          </button>
+          </Link>
           {/* Burger Menu  */}
           <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-black lg:hidden " />
         </div>
