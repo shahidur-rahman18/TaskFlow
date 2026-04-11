@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import * as bcrypt from "bcrypt";
-import clientPromise from "../src/lib/mongodb";
+import clientPromise from "../lib/mongodb";
 
 async function seedUsers() {
   console.log("Connecting to MongoDB...");
